@@ -5,5 +5,5 @@ const dateScalar = gql`
 `;
 
 module.exports = {
-    dateScalar,
+  dateScalar,
 };

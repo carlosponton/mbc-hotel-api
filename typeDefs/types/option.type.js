@@ -8,5 +8,5 @@ const optionType = gql`
 `;
 
 module.exports = {
-    optionType,
+  optionType,
 };

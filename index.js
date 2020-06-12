@@ -1,7 +1,7 @@
-const { ApolloServer } = require('apollo-server');
+const { ApolloServer } = require("apollo-server");
 const { typeDefs } = require("./typeDefs");
 const { resolvers } = require("./resolvers");
-require('./config/mongoConnect');
+require("./config/mongoConnect");
 
 const server = new ApolloServer({ typeDefs, resolvers });
 

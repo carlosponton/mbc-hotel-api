@@ -9,5 +9,5 @@ const reservationInput = gql`
 `;
 
 module.exports = {
-    reservationInput,
+  reservationInput,
 };

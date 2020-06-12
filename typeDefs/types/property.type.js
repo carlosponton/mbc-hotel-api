@@ -4,13 +4,14 @@ const propertyType = gql`
   type Property {
     _id: ID
     title: String
+    description: String
     photos: [String]
     price: Float
     options: [Option]
-    availability: [Availability]
+    availability: [Reservation]
   }
 `;
 
 module.exports = {
-    propertyType,
+  propertyType,
 };

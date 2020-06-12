@@ -1,5 +1,5 @@
-const { dateResolvers } = require('./date.resolver');
+const { dateResolvers } = require("./date.resolver");
 
 module.exports = {
-    dateResolvers,
+  dateResolvers,
 };
