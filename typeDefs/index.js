@@ -1,8 +1,10 @@
 const { query } = require("./query");
-const { propertyType, optionType, availabilityType } = require("./types");
-const { dateScalar } = require("./scalars");
+const { mutation } = require("./mutation");
+const types = require("./types");
+const scalars = require("./scalars");
+const inputs = require("./inputs");
 
-const typeDefs = [query, propertyType, optionType, availabilityType, dateScalar];
+const typeDefs = [query, mutation, ...Object.values(types), ...Object.values(scalars), ...Object.values(inputs)];
 
 module.exports = {
   typeDefs,

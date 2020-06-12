@@ -16,6 +16,12 @@ const propertySchema = new Schema({
             from: Date,
             to: Date
         }
+    ],
+    reservation: [
+        {
+            type: mongoose.Schema.Types.ObjectId,
+            ref:'Reservation'
+        }
     ]
 },{
     timestamps: true
