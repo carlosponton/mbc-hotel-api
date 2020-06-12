@@ -1,0 +1,16 @@
+{
+  "name": "hotel-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Carlos Pontón",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.14.3",
+    "graphql": "^15.1.0",
+    "mongoose": "^5.9.18"
+  }
+}
