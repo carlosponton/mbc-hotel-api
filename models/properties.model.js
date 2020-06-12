@@ -2,13 +2,13 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const propertySchema = new Schema({
-    title: String, // String is shorthand for {type: String}
-    photos: String,
+    title: String,
+    photos: [String],
     price: Number,
     options : [
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref:'Post'
+            ref:'Option'
         }
     ],
     availability:[
