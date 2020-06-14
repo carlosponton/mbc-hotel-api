@@ -8,7 +8,7 @@ const propertyType = gql`
     photos: [String]
     price: Float
     options: [Option]
-    availability: [Reservation]
+    reservations: [Date]
   }
 `;
 

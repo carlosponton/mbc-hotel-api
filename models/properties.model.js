@@ -13,7 +13,7 @@ const propertySchema = new Schema(
         ref: "Option",
       },
     ],
-    reservation: [
+    reservations: [
       {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Reservation",

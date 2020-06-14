@@ -10,7 +10,10 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^2.14.3",
+    "bcrypt": "^5.0.0",
     "graphql": "^15.1.0",
-    "mongoose": "^5.9.18"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "nodemailer": "^6.4.8"
   }
 }
